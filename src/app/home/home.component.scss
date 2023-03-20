@@ -1,0 +1,40 @@
+.glass {
+  // background: rgba( 255, 255, 255, 0.25 );
+  // box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 1 );
+  // backdrop-filter: blur( 4px );
+  // -webkit-backdrop-filter: blur( 4px );
+  // border-radius: 12px;
+  // border: 1px solid rgba( 255, 255, 255, 0.18 );
+  // outline: none;
+
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 12px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(35px);
+  // -webkit-backdrop-filter: blur(100px);
+  border: 1px solid rgba(255, 255, 255, 0.7);
+
+  display: flex;
+  width: 30vw;
+  height: 40vh;
+  margin-top: 5%;
+}
+
+.profile-picture{
+  margin: 3%;
+  border-radius: 100%;
+  overflow: hidden;
+  height: 130px;
+  width: 130px;
+  // background: black;
+}
+
+img {
+  width: 100%;
+}
+
+p {
+  font-family: Lato;
+  // line-height: normal;
+  color: #CDBFD8;
+}
