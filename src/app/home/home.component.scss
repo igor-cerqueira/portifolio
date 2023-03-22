@@ -16,7 +16,7 @@
 
   display: flex;
   width: 30vw;
-  height: 44vh;
+  height: 42vh;
   margin-top: 4%;
 }
 
@@ -47,12 +47,11 @@ b {
 }
 
 .social {
-  border: 1px solid white;
   display: flex;
   height: 20%;
   justify-content: space-around;
   align-items: flex-end;
-  width: 80%;
+  width: 60%;
 }
 
 .logo {
@@ -60,7 +59,7 @@ b {
   cursor: pointer;
 }
 
-.logo img {
+.logo svg {
   color: #d5dbe0;
   height: 25px;
 }
