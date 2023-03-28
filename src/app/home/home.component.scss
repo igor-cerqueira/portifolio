@@ -9,15 +9,15 @@
 
   background: rgba(255, 255, 255, 0.15);
   border-radius: 12px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(35px);
-  // -webkit-backdrop-filter: blur(100px);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(6px);
   border: 1px solid rgba(255, 255, 255, 0.7);
 
   display: flex;
-  width: 30vw;
+  width: 30%;
   height: 42vh;
-  margin-top: 4%;
+  margin: 4% 0%;
+  min-width: 290px;
 }
 
 .infos {
@@ -42,16 +42,14 @@ p {
   // line-height: normal;
   color: #d5dbe0;
 }
-b {
-  font-size: 1.2emx;
-}
 
 .social {
   display: flex;
-  height: 20%;
+  height: 10vh;
   justify-content: space-around;
-  align-items: flex-end;
+  // align-items: flex-end;
   width: 60%;
+  align-items: center;
 }
 
 .logo {

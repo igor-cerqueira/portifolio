@@ -1,0 +1,30 @@
+.projects{
+  width: 40%;
+  color: aliceblue;
+  margin: 2%;
+  padding: 0 5%;
+  // display: flex;
+}
+
+.post-image {
+  width: 48%;
+  border: 1px solid white;
+  border-radius: 8px;
+  float: left;
+  overflow: hidden;
+
+}
+
+.post-text {
+  width: 48%;
+  float: right;
+}
+
+.btn {
+  float: right;
+  margin: 6% 10%;
+}
+
+img {
+  width: 100%;
+}

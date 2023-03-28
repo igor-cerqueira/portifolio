@@ -6,5 +6,12 @@ body {
   // background: linear-gradient(to right, #091D3B, rgb(13, 13, 153)) ;
   // // background-color: #091D3B ;
   // background: rgb(2,0,36);
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  // background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  // background-image: url("../src/assets/images/bg.jpg");
+  font-family: "Trebuchet MS", Helvetica sans-serif;
+  background-image: url("./assets/images/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
 }
